@@ -1,4 +1,4 @@
-# Funtion defing
+# Funtion defining
 # with recurtion
 def BinarySearch(arr,left,right,element):
     mid=left+(right-left)//2
@@ -42,3 +42,4 @@ element = 62
 print("Index of 62 is:")
 index=BinarySearch(array,0,len(array)-1,element)
 print(index)
+
